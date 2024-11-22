@@ -2,7 +2,6 @@ describe('template spec', () => {
   it('passes', () => {
     cy.visit('https://example.cypress.io')
   })
-
   
   it('visit farmsagora', function() {
     //clicking actions on the landing page not including book a demo, login and register at the header*/

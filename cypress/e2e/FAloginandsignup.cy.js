@@ -5,11 +5,9 @@ describe('template spec', () => {
 
     // Navigate and fill out login details
     cy.get('.gloZvy > span').click();
-    cy.get(':nth-child(4) > .sc-klVQfs > .flex > .sc-dSCufp')
-      .clear()
+    cy.get(':nth-child(4) > .sc-klVQfs > .flex > .sc-dSCufp').clear()
       .type('hipihi@clip.lat');
-    cy.get('[style="margin: 10px 0px; width: 100%;"] > .w-full > .sc-krNlru > .flex > .sc-ibQAlb')
-      .clear()
+    cy.get('[style="margin: 10px 0px; width: 100%;"] > .w-full > .sc-krNlru > .flex > .sc-ibQAlb').clear()
       .type('Sinoxi159#');
     cy.get('.sc-eZYNyq > .sc-iHbSHJ > span').click();
 
