@@ -29,13 +29,11 @@ describe('template spec', () => {
     cy.get(':nth-child(9) > [data-testid="flowbite-accordion-arrow"]').click();
     cy.get('[data-testid="flowbite-accordion"] > :nth-child(7)').click();
     cy.get(':nth-child(3) > [data-testid="footer-groupLink"] > :nth-child(1) > .hover\\:underline').click();
-    /* ==== End Cypress Studio ==== */
   });
 
   //to fill the book a demo form
   it('passes', () => {
     cy.visit('https://farmsagora.com/')
-    /* ==== Generated with Cypress Studio ==== */
     cy.get('.underline').click();
     cy.get('.space-y-5 > :nth-child(1) > :nth-child(1) > .rounded-lg').clear('john ');
     cy.get('.space-y-5 > :nth-child(1) > :nth-child(1) > .rounded-lg').type('john ');
@@ -53,7 +51,6 @@ describe('template spec', () => {
     cy.get('.md\\:w-\\[40\\%\\] > .md\\:text-md').click();
     cy.get('#\\[object\\ Object\\]').click();
     cy.get('.gap-y-0\\.5 > :nth-child(26)').click();
-    /* ==== End Cypress Studio ==== */
   })
 
 
@@ -78,7 +75,6 @@ describe('template spec', () => {
     //cy.get('[href="/market/cart"] > li').as('btn').click({ force: true });
     
     cy.get('.mt-4 > .inline-flex').click();
-    /* ==== End Cypress Studio ==== */
     
   })
     
